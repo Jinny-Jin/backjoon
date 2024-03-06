@@ -16,7 +16,7 @@ for(let i=0;i<testCase;i++){
             map.set(type,1)
         }
     }
-    for(let [key,value] of map){
+    for(let value of map.values()){
         answer = answer * (value+1)
     }
     console.log(map)
